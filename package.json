@@ -1,0 +1,31 @@
+{
+    "name": "rbamc-package",
+    "description": "",
+    "version": "1.0.0",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "build:watch": "tsc -w",
+        "build": "tsc",
+        "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+        "lint": "tslint -p tsconfig.json",
+        "prepare": "npm run build",
+        "prepublishOnly": "npm test && npm run lint",
+        "preversion": "npm run lint",
+        "version": "npm run format && git add -A src",
+        "postversion": "git push && git push --tags"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com-personal:shank-07/rbac.git"
+    },
+    "devDependencies": {
+        "typescript": "^4.8.4"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "files": [
+        "lib/**/*"
+    ]
+}

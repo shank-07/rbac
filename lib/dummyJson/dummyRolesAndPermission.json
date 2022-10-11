@@ -1,0 +1,142 @@
+[
+    {
+        "moduleName": "user",
+        "moduleCode": "user",
+        "permitted": false,
+        "features": [
+            {
+                "featureName": "Add user",
+                "featureCode": "add_user",
+                "permitted": false,
+                "hasChildOperation": false,
+                "operations": []
+            },
+            {
+                "featureName": "Edit User",
+                "featureCode": "edit_user",
+                "permitted": false,
+                "hasChildOperation": false,
+                "operations": []
+            }
+        ]
+    },
+    {
+        "moduleName": "Project",
+        "moduleCode": "project",
+        "permitted": false,
+        "features": [
+            {
+                "featureName": "SLD",
+                "featureCode": "sld",
+                "permitted": false,
+                "hasChildOperation": false,
+                "operations": [
+                    {
+                        "operationName": "Create",
+                        "operationCode": "create",
+                        "permitted": false
+                    },
+                    {
+                        "operationName": "Update",
+                        "operationCode": "update",
+                        "permitted": false
+                    },
+                    {
+                        "operationName": "View",
+                        "operationCode": "view",
+                        "permitted": false
+                    },
+                    {
+                        "operationName": "Delete",
+                        "operationCode": "delete",
+                        "permitted": false
+                    }
+                ]
+            },
+            {
+                "featureName": "Project Management",
+                "featureCode": "project_management",
+                "permitted": false,
+                "hasChildOperation": false,
+                "operations": [
+                    {
+                        "operationName": "Create",
+                        "operationCode": "create",
+                        "permitted": false
+                    },
+                    {
+                        "operationName": "Update",
+                        "operationCode": "update",
+                        "permitted": false
+                    },
+                    {
+                        "operationName": "View",
+                        "operationCode": "view",
+                        "permitted": false
+                    },
+                    {
+                        "operationName": "Delete",
+                        "operationCode": "delete",
+                        "permitted": false
+                    }
+                ]
+            },
+            {
+                "featureName": "Kanban Board",
+                "featureCode": "kanban_board",
+                "permitted": false,
+                "hasChildOperation": false,
+                "operations": [
+                    {
+                        "operationName": "Create",
+                        "operationCode": "create",
+                        "permitted": false
+                    },
+                    {
+                        "operationName": "Update",
+                        "operationCode": "update",
+                        "permitted": false
+                    },
+                    {
+                        "operationName": "View",
+                        "operationCode": "view",
+                        "permitted": false
+                    },
+                    {
+                        "operationName": "Delete",
+                        "operationCode": "delete",
+                        "permitted": false
+                    }
+                ]
+            },
+            {
+                "featureName": "Costing",
+                "featureCode": "costing",
+                "permitted": false,
+                "hasChildOperation": false,
+                "operations": [
+                    {
+                        "operationName": "Create",
+                        "operationCode": "create",
+                        "permitted": false
+                    },
+                    {
+                        "operationName": "Update",
+                        "operationCode": "update",
+                        "permitted": false
+                    },
+                    {
+                        "operationName": "View",
+                        "operationCode": "view",
+                        "permitted": false
+                    },
+                    {
+                        "operationName": "Delete",
+                        "operationCode": "delete",
+                        "permitted": false
+                    }
+                ]
+            }
+        ]
+    }
+]
